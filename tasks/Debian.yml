@@ -1,0 +1,7 @@
+---
+- name: Install Rsyslog Packages - Debian
+  apt:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - "{{ os_packages }}"

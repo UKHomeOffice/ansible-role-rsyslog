@@ -1,0 +1,3 @@
+---
+rsyslog_server: localhost:514
+rsyslog_forward: false
